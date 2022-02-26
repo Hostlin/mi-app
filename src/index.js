@@ -11,6 +11,44 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+//<p>Hola mundo</p>
+
+/* const Li = ({ children, estado, casa, edad }) => {
+  console.log(casa, edad);
+  return (
+    <li>{children} estoy {estado}</li>
+  )
+}
+const X = () =>
+  <ul>
+    <Li
+      estado={'Feliz'}
+      casa={false}
+      edad={24}
+    >
+      Chanchito
+    </Li>
+    <Li
+      estado={'Triste'}
+      edad={13}
+      casa={true}
+    >
+      Chachito
+    </Li>
+    <Li
+      estado={'Algarete'}
+      edad={25}
+      casa={true}
+    >
+      Felipe
+    </Li>
+  </ul>
+
+ReactDOM.render(
+  <X />
+  , document.getElementById('root')
+) */
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
